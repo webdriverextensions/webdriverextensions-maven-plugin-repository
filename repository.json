@@ -4,6 +4,34 @@
             "name": "chromedriver",
             "platform": "linux",
             "bit": "32",
+            "version": "2.10",
+            "url": "http://chromedriver.storage.googleapis.com/2.10/chromedriver_linux32.zip",
+            "checksum": "870d11da3785b7431e415c31797d7c22"
+        }, {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "2.10",
+            "url": "http://chromedriver.storage.googleapis.com/2.10/chromedriver_linux64.zip",
+            "checksum": "f4fb9d7a27a87395120c27f807e9e417"
+        }, {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "32",
+            "version": "2.10",
+            "url": "http://chromedriver.storage.googleapis.com/2.10/chromedriver_mac32.zip",
+            "checksum": "519c9ba8081d6f5fb4060d5b9da5aba3"
+        }, {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "2.10",
+            "url": "http://chromedriver.storage.googleapis.com/2.10/chromedriver_win32.zip",
+            "checksum": "146f1936778ba90a617653c72543be81"
+        }, {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "32",
             "version": "2.9",
             "url": "http://chromedriver.storage.googleapis.com/2.9/chromedriver_linux32.zip",
             "checksum": "1047354165f02aec8ac05f0b0316fe57"
