@@ -4,6 +4,48 @@
             "name": "chromedriver",
             "platform": "linux",
             "bit": "64",
+            "version": "2.19.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.19/chromedriver_linux64.zip",
+            "checksum": "e9f27c8567cde57caa78e444bfc217f1"
+        }, {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "32",
+            "version": "2.19.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.19/chromedriver_mac32.zip",
+            "checksum": "c0d05aed2932eab741ef9241c990a4cb"
+        }, {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "2.19.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.19/chromedriver_win32.zip",
+            "checksum": "6953b567da2fffe0e0ff37cbf1069122"
+        }, {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "2.18.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.18/chromedriver_linux64.zip",
+            "checksum": "d08bb8f42e92ee04762a6bbad0fd9f11"
+        }, {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "32",
+            "version": "2.18.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.18/chromedriver_mac32.zip",
+            "checksum": "e43b664ba7ce8c4d8a4cca7845ba0c93"
+        }, {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "2.18.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.18/chromedriver_win32.zip",
+            "checksum": "b40615e62bc2795a134e5c0316c975f0"
+        }, {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
             "version": "2.17.0",
             "url": "http://chromedriver.storage.googleapis.com/2.17/chromedriver_linux64.zip",
             "checksum": "1e3cc76e7d9bd045020077e0fb06620b"
