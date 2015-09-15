@@ -385,6 +385,30 @@
             "version": "2.41.0",
             "url": "http://selenium-release.storage.googleapis.com/2.41/IEDriverServer_x64_2.41.0.zip",
             "checksum": "998e8c347d57a766ce9cdf2894d087f1"
+        },
+        {
+            "name": "phantomjs",
+            "platform": "linux",
+            "bit": "64",
+            "version": "1.97",
+            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-x86_64.tar.bz2",
+            "checksum": "f278996c3edd0e8d8ec4893807f27d71"
+        },
+        {
+            "name": "phantomjs",
+            "platform": "linux",
+            "bit": "32",
+            "version": "1.97",
+            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-i686.tar.bz2",
+            "checksum": "9c1426eef5b04679d65198b1bdd6ef88"
+        },
+        {
+            "name": "phantomjs",
+            "platform": "windows",
+            "bit": "64",
+            "version": "1.97",
+            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-windows.zip",
+            "checksum": "32a95fa96219dd791543aecfefdc756d"
         }
     ]
 }
