@@ -1,10 +1,10 @@
 WebDriver Extensions Maven Plugin Repository
 ===================
-This is the home of the drivers repository used by the [WebDriver Extensions Maven Plugin](https://github.com/webdriverextensions/webdriverextensions-maven-plugin).
+WARNING THIS REPOSITORY WILL NO LONGER BE USED FOR webdriverextensions-maven-plugin VERSIONS >= 2.0 
 
-## Usage
-TODO: Describe how to contribute
+NEW REPO CAN BE FOUND [HERE](https://github.com/webdriverextensions/webdriverextensions-maven-plugin-repository-2.0)
 
+This is the home of the drivers repository used by the [WebDriver Extensions Maven Plugin](https://github.com/webdriverextensions/webdriverextensions-maven-plugin) for versions below 2.0.
 
 ## License
 
