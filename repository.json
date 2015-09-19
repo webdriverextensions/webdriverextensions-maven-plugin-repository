@@ -392,7 +392,7 @@
             "bit": "64",
             "version": "1.9.7",
             "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-x86_64.tar.bz2",
-            "checksum": "bd03f5dbf21006159f18709dca56366c",
+            "checksum": "f278996c3edd0e8d8ec4893807f27d71",
             "fileMatchInside": ".*/bin/phantomjs$"
         },
         {
@@ -401,7 +401,7 @@
             "bit": "32",
             "version": "1.9.7",
             "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-i686.tar.bz2",
-            "checksum": "62e5e5ee6c54da5aa3d4c2304173076a",
+            "checksum": "9c1426eef5b04679d65198b1bdd6ef88",
             "fileMatchInside": ".*/bin/phantomjs$"
         },
         {
