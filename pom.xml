@@ -19,7 +19,7 @@
 
     <prerequisites>
         <maven>3.0.4</maven>
-    </prerequisites>
+    </prerequisites> 
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
