@@ -1,10 +1,12 @@
-WebDriver Extensions Maven Plugin Repository
+[![Build Status](https://travis-ci.org/webdriverextensions/webdriverextensions-maven-plugin-repository.png)](https://travis-ci.org/webdriverextensions/webdriverextensions-maven-plugin-repository)
+
+WebDriver Extensions Maven Plugin Repository 3.0
 ===================
-WARNING THIS REPOSITORY WILL NO LONGER BE USED FOR webdriverextensions-maven-plugin VERSIONS >= 2.0 
+This is the home of the drivers repository used by the [WebDriver Extensions Maven Plugin](https://github.com/webdriverextensions/webdriverextensions-maven-plugin) for version 1.X.X and and 3.X.X and later.
 
-NEW REPO CAN BE FOUND [HERE](https://github.com/webdriverextensions/webdriverextensions-maven-plugin-repository-2.0)
-
-This is the home of the drivers repository used by the [WebDriver Extensions Maven Plugin](https://github.com/webdriverextensions/webdriverextensions-maven-plugin) for versions below 2.0.
+## Want to add a version to the repo?
+Simply just fork this repo, add the driver info in the [repository-3.0.json](https://github.com/webdriverextensions/webdriverextensions-maven-plugin-repository/blob/master/repository-3.0.json) file and do a PR. 
+No need to add the drivers to repository.json since that repo is no longer maintained.
 
 ## License
 
