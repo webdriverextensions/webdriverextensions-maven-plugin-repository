@@ -1,2 +1,4 @@
-.idea
+.idea/
+.gitignore
+target/
 *.iml
