@@ -4,7 +4,7 @@ WebDriver Extensions Maven Plugin Repository 3.0
 ===================
 This is the home of the drivers repository used by the [WebDriver Extensions Maven Plugin](https://github.com/webdriverextensions/webdriverextensions-maven-plugin) for version 1.X.X and and 3.X.X and later.
 
-## Want to add a version to the repo?
+## Want to add a driver version to the repo?
 Simply just fork this repo, add the driver info in the [repository-3.0.json](https://github.com/webdriverextensions/webdriverextensions-maven-plugin-repository/blob/master/repository-3.0.json) file and do a PR. 
 No need to add the drivers to repository.json since that repo is no longer maintained.
 
