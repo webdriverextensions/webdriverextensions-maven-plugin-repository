@@ -75,7 +75,11 @@ public class RepositoryTest {
             assertThat(response.code()).describedAs(description).isEqualTo(403);
         } else if("geckodriver".equals(name)) {
             // need to handle geckodriver different from others
-            // it is hosted on s3, no HEAD allowed
+            // it is hosted on github, no HEAD allowed
+            assertThat(response.code()).describedAs(description).isEqualTo(403);
+        } else if("operadriver".equals(name)) {
+            // need to handle operadriver different from others
+            // it is hosted on github, no HEAD allowed
             assertThat(response.code()).describedAs(description).isEqualTo(403);
         } else {
             assertThat(response.code()).describedAs(description).isEqualTo(200);
