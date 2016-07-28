@@ -389,6 +389,20 @@
             "name": "internetexplorerdriver",
             "platform": "windows",
             "bit": "32",
+            "version": "2.53.1",
+            "url": "http://selenium-release.storage.googleapis.com/2.53/IEDriverServer_Win32_2.53.1.zip"
+        },
+        {
+            "name": "internetexplorerdriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "2.53.1",
+            "url": "http://selenium-release.storage.googleapis.com/2.53/IEDriverServer_x64_2.53.1.zip"
+        },
+        {
+            "name": "internetexplorerdriver",
+            "platform": "windows",
+            "bit": "32",
             "version": "2.53.0",
             "url": "http://selenium-release.storage.googleapis.com/2.53/IEDriverServer_Win32_2.53.0.zip"
         },
