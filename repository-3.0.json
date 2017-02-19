@@ -521,7 +521,7 @@
             "bit": "32",
             "version": "2.9.0",
             "url": "http://chromedriver.storage.googleapis.com/2.9/chromedriver_win32.zip"
-        }
+        },
         {
             "name": "internetexplorerdriver",
             "platform": "windows",
