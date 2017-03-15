@@ -4,6 +4,34 @@
             "name": "chromedriver",
             "platform": "linux",
             "bit": "32",
+            "version": "2.28.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.28/chromedriver_linux32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "2.28.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.28/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "2.28.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.28/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "2.28.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.28/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "32",
             "version": "2.27.0",
             "url": "http://chromedriver.storage.googleapis.com/2.27/chromedriver_linux32.zip"
         },
@@ -521,6 +549,20 @@
             "bit": "32",
             "version": "2.9.0",
             "url": "http://chromedriver.storage.googleapis.com/2.9/chromedriver_win32.zip"
+        },
+        {
+            "name": "internetexplorerdriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "3.3.0",
+            "url": "http://selenium-release.storage.googleapis.com/3.3/IEDriverServer_Win32_3.3.0.zip"
+        },
+        {
+            "name": "internetexplorerdriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "3.3.0",
+            "url": "http://selenium-release.storage.googleapis.com/3.3/IEDriverServer_x64_3.3.0.zip"
         },
         {
             "name": "internetexplorerdriver",
