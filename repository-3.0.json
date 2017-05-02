@@ -960,6 +960,34 @@
             "name": "geckodriver",
             "platform": "windows",
             "bit": "64",
+            "version": "0.16.1",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.16.1/geckodriver-v0.16.1-win64.zip"
+        },
+        {
+            "name": "geckodriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "0.16.1",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.16.1/geckodriver-v0.16.1-win32.zip"
+        },
+        {
+            "name": "geckodriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "0.16.1",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.16.1/geckodriver-v0.16.1-linux64.tar.gz"
+        },
+        {
+            "name": "geckodriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "0.16.1",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.16.1/geckodriver-v0.16.1-macos.tar.gz"
+        },
+        {
+            "name": "geckodriver",
+            "platform": "windows",
+            "bit": "64",
             "version": "0.16.0",
             "url": "https://github.com/mozilla/geckodriver/releases/download/v0.16.0/geckodriver-v0.16.0-win64.zip"
         },
