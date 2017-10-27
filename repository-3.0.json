@@ -1558,6 +1558,34 @@
             "name": "operadriver",
             "platform": "windows",
             "bit": "64",
+            "version": "2.30",
+            "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.30/operadriver_win64.zip"
+        },
+        {
+            "name": "operadriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "2.30",
+            "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.30/operadriver_win32.zip"
+        },
+        {
+            "name": "operadriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "2.30",
+            "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.30/operadriver_linux64.zip"
+        },
+        {
+            "name": "operadriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "2.30",
+            "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.30/operadriver_mac64.zip"
+        },
+        {
+            "name": "operadriver",
+            "platform": "windows",
+            "bit": "64",
             "version": "2.29",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.29/operadriver_win64.zip"
         },
