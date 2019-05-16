@@ -48,6 +48,7 @@ public class RepositoryTest {
         String fileName = Paths.get(uri.getPath()).getFileName().toString();
         boolean isIEDriver = "internetexplorerdriver".equals(name);
         boolean isEdgeDriver = "edgedriver".equals(name);
+        boolean isChromeBetaDriver = "chromedriver-beta".equals(name);
         if (isIEDriver) {
             assertThat(fileName)
                     .describedAs("url '" + url + "' should contain name 'IEDriverServer_'")
@@ -56,6 +57,10 @@ public class RepositoryTest {
             assertThat(fileName)
                     .describedAs("url '" + url + "' should contain name 'MicrosoftWebDriver'")
                     .matches("MicrosoftWebDriver.*");
+        } else if (isChromeBetaDriver) {
+            assertThat(fileName)
+                    .describedAs("url '" + url "' should contain 'chromedriver')
+                    .matches("chromedriver.*);
         } else {
             assertThat(fileName)
                     .describedAs("url '" + url + "' should contain name '" + name + "'")
