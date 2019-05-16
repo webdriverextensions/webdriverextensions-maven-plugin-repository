@@ -59,8 +59,8 @@ public class RepositoryTest {
                     .matches("MicrosoftWebDriver.*");
         } else if (isChromeBetaDriver) {
             assertThat(fileName)
-                    .describedAs("url '" + url "' should contain 'chromedriver')
-                    .matches("chromedriver.*);
+                    .describedAs("url '" + url "' should contain 'chromedriver'")
+                    .matches("chromedriver.*");
         } else {
             assertThat(fileName)
                     .describedAs("url '" + url + "' should contain name '" + name + "'")
