@@ -4,22 +4,43 @@
             "name": "chromedriver-beta",
             "platform": "linux",
             "bit": "64",
-            "version": "75.0.3770.8",
-            "url": "http://chromedriver.storage.googleapis.com/75.0.3770.8/chromedriver_linux64.zip"
+            "version": "76.0.3809.25",
+            "url": "http://chromedriver.storage.googleapis.com/76.0.3809.25/chromedriver_linux64.zip"
         },
         {
             "name": "chromedriver-beta",
             "platform": "mac",
             "bit": "64",
-            "version": "75.0.3770.8",
-            "url": "http://chromedriver.storage.googleapis.com/75.0.3770.8/chromedriver_mac64.zip"
+            "version": "76.0.3809.25",
+            "url": "http://chromedriver.storage.googleapis.com/76.0.3809.25/chromedriver_mac64.zip"
         },
         {
             "name": "chromedriver-beta",
             "platform": "windows",
             "bit": "32",
-            "version": "75.0.3770.8",
-            "url": "http://chromedriver.storage.googleapis.com/75.0.3770.8/chromedriver_win32.zip"
+            "version": "76.0.3809.25",
+            "url": "http://chromedriver.storage.googleapis.com/76.0.3809.25/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "75.0.3770.90",
+            "url": "http://chromedriver.storage.googleapis.com/75.0.3770.90/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "75.0.3770.90",
+            "url": "http://chromedriver.storage.googleapis.com/75.0.3770.90/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "75.0.3770.90",
+            "url": "http://chromedriver.storage.googleapis.com/75.0.3770.90/chromedriver_win32.zip"
         },
         {
             "name": "chromedriver",
