@@ -1,21 +1,21 @@
 {
     "drivers": [
         {
-            "name": "chromedriver-beta",
+            "name": "chromedriver",
             "platform": "linux",
             "bit": "64",
             "version": "76.0.3809.25",
             "url": "http://chromedriver.storage.googleapis.com/76.0.3809.25/chromedriver_linux64.zip"
         },
         {
-            "name": "chromedriver-beta",
+            "name": "chromedriver",
             "platform": "mac",
             "bit": "64",
             "version": "76.0.3809.25",
             "url": "http://chromedriver.storage.googleapis.com/76.0.3809.25/chromedriver_mac64.zip"
         },
         {
-            "name": "chromedriver-beta",
+            "name": "chromedriver",
             "platform": "windows",
             "bit": "32",
             "version": "76.0.3809.25",
@@ -1264,132 +1264,6 @@
             "name": "internetexplorerdriver",
             "platform": "windows",
             "bit": "32",
-            "version": "3.9.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.9.0/IEDriverServer_Win32_3.9.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "64",
-            "version": "3.9.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.9.0/IEDriverServer_x64_3.9.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "32",
-            "version": "3.8.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.8/IEDriverServer_Win32_3.8.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "64",
-            "version": "3.8.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.8/IEDriverServer_x64_3.8.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "32",
-            "version": "3.7.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.7/IEDriverServer_Win32_3.7.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "64",
-            "version": "3.7.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.7/IEDriverServer_x64_3.7.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "32",
-            "version": "3.6.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.6/IEDriverServer_Win32_3.6.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "64",
-            "version": "3.6.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.6/IEDriverServer_x64_3.6.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "32",
-            "version": "3.5.1",
-            "url": "http://selenium-release.storage.googleapis.com/3.5/IEDriverServer_Win32_3.5.1.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "64",
-            "version": "3.5.1",
-            "url": "http://selenium-release.storage.googleapis.com/3.5/IEDriverServer_x64_3.5.1.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "32",
-            "version": "3.5.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.5/IEDriverServer_Win32_3.5.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "64",
-            "version": "3.5.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.5/IEDriverServer_x64_3.5.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "32",
-            "version": "3.4.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.4/IEDriverServer_Win32_3.4.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "64",
-            "version": "3.4.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.4/IEDriverServer_x64_3.4.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "32",
-            "version": "3.3.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.3/IEDriverServer_Win32_3.3.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "64",
-            "version": "3.3.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.3/IEDriverServer_x64_3.3.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "32",
-            "version": "3.2.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.2/IEDriverServer_Win32_3.2.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "64",
-            "version": "3.2.0",
-            "url": "http://selenium-release.storage.googleapis.com/3.2/IEDriverServer_x64_3.2.0.zip"
-        },
-        {
-            "name": "internetexplorerdriver",
-            "platform": "windows",
-            "bit": "32",
             "version": "3.141.59",
             "url": "http://selenium-release.storage.googleapis.com/3.141/IEDriverServer_Win32_3.141.59.zip"
         },
@@ -1861,6 +1735,34 @@
             "bit": "64",
             "version": "2.41.0",
             "url": "http://selenium-release.storage.googleapis.com/2.41/IEDriverServer_x64_2.41.0.zip"
+        },
+        {
+            "name": "internetexplorerdriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "2.40.0",
+            "url": "http://selenium-release.storage.googleapis.com/2.40/IEDriverServer_Win32_2.40.0.zip"
+        },
+        {
+            "name": "internetexplorerdriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "2.40.0",
+            "url": "http://selenium-release.storage.googleapis.com/2.40/IEDriverServer_x64_2.40.0.zip"
+        },
+        {
+            "name": "internetexplorerdriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "2.39.0",
+            "url": "http://selenium-release.storage.googleapis.com/2.39/IEDriverServer_Win32_2.39.0.zip"
+        },
+        {
+            "name": "internetexplorerdriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "2.39.0",
+            "url": "http://selenium-release.storage.googleapis.com/2.39/IEDriverServer_x64_2.39.0.zip"
         },
         {
             "name": "phantomjs",
