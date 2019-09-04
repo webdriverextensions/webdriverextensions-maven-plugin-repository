@@ -2,6 +2,69 @@
     "drivers": [
         {
             "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "77.0.3865.40",
+            "url": "http://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "77.0.3865.40",
+            "url": "http://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "77.0.3865.40",
+            "url": "http://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "77.0.3865.10",
+            "url": "http://chromedriver.storage.googleapis.com/77.0.3865.10/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "77.0.3865.10",
+            "url": "http://chromedriver.storage.googleapis.com/77.0.3865.10/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "77.0.3865.10",
+            "url": "http://chromedriver.storage.googleapis.com/77.0.3865.10/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "76.0.3809.126",
+            "url": "http://chromedriver.storage.googleapis.com/76.0.3809.68/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "76.0.3809.126",
+            "url": "http://chromedriver.storage.googleapis.com/76.0.3809.126/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "76.0.3809.126",
+            "url": "http://chromedriver.storage.googleapis.com/76.0.3809.126/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
             "platform": "linux",
             "bit": "64",
             "version": "76.0.3809.68",
