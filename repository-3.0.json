@@ -2808,6 +2808,195 @@
             "url": "https://download.microsoft.com/download/3/2/D/32D3E464-F2EF-490F-841B-05D53C848D15/MicrosoftWebDriver.exe"
         },
         {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "80.0.361.47",
+            "url": "https://msedgedriver.azureedge.net/80.0.361.47/edgedriver_win32.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "80.0.361.47",
+            "url": "https://msedgedriver.azureedge.net/80.0.361.47/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "80.0.361.47",
+            "url": "https://msedgedriver.azureedge.net/80.0.361.47/edgedriver_mac64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "80.0.361.48",
+            "url": "https://msedgedriver.azureedge.net/80.0.361.48/edgedriver_win32.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "80.0.361.48",
+            "url": "https://msedgedriver.azureedge.net/80.0.361.48/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "80.0.361.48",
+            "url": "https://msedgedriver.azureedge.net/80.0.361.48/edgedriver_mac64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "80.0.361.50",
+            "url": "https://msedgedriver.azureedge.net/80.0.361.50/edgedriver_win32.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "80.0.361.50",
+            "url": "https://msedgedriver.azureedge.net/80.0.361.50/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "80.0.361.50",
+            "url": "https://msedgedriver.azureedge.net/80.0.361.50/edgedriver_mac64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "81.0.415.0",
+            "url": "https://msedgedriver.azureedge.net/81.0.415.0/edgedriver_win32.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "81.0.415.0",
+            "url": "https://msedgedriver.azureedge.net/81.0.415.0/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "81.0.415.0",
+            "url": "https://msedgedriver.azureedge.net/81.0.415.0/edgedriver_mac64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "81.0.416.0",
+            "url": "https://msedgedriver.azureedge.net/81.0.416.0/edgedriver_win32.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "81.0.416.0",
+            "url": "https://msedgedriver.azureedge.net/81.0.416.0/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "81.0.416.0",
+            "url": "https://msedgedriver.azureedge.net/81.0.416.0/edgedriver_mac64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "81.0.416.3",
+            "url": "https://msedgedriver.azureedge.net/81.0.416.3/edgedriver_win32.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "81.0.416.3",
+            "url": "https://msedgedriver.azureedge.net/81.0.416.3/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "81.0.416.3",
+            "url": "https://msedgedriver.azureedge.net/81.0.416.3/edgedriver_mac64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "82.0.418.0",
+            "url": "https://msedgedriver.azureedge.net/82.0.418.0/edgedriver_win32.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "82.0.418.0",
+            "url": "https://msedgedriver.azureedge.net/82.0.418.0/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "82.0.418.0",
+            "url": "https://msedgedriver.azureedge.net/82.0.418.0/edgedriver_mac64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "82.0.421.0",
+            "url": "https://msedgedriver.azureedge.net/82.0.421.0/edgedriver_win32.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "82.0.421.0",
+            "url": "https://msedgedriver.azureedge.net/82.0.421.0/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "82.0.421.0",
+            "url": "https://msedgedriver.azureedge.net/82.0.421.0/edgedriver_mac64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "82.0.422.0",
+            "url": "https://msedgedriver.azureedge.net/82.0.422.0/edgedriver_win32.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "82.0.422.0",
+            "url": "https://msedgedriver.azureedge.net/82.0.422.0/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "82.0.422.0",
+            "url": "https://msedgedriver.azureedge.net/82.0.422.0/edgedriver_mac64.zip"
+        },
+        {
             "name": "operadriver",
             "platform": "windows",
             "bit": "64",
