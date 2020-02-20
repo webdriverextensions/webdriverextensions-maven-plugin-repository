@@ -55,8 +55,8 @@ public class RepositoryTest {
                     .matches("IEDriverServer_.*");
         } else if (isEdgeDriver) {
             assertThat(fileName)
-                    .describedAs("url '" + url + "' should contain name 'MicrosoftWebDriver'")
-                    .matches("MicrosoftWebDriver.*");
+                    .describedAs("url '" + url + "' should contain name 'MicrosoftWebDriver' or 'edgedriver'")
+                    .matches("MicrosoftWebDriver.*|edgedriver.*");
         } else if (isChromeBetaDriver) {
             assertThat(fileName)
                     .describedAs("url '" + url + "' should contain 'chromedriver'")
