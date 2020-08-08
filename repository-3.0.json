@@ -3183,7 +3183,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "2.30",
-            "url": "https://github.com/operasoftw1e/operachromiumdriver/releases/download/v.2.30/operadriver_win64.zip"
+            "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.30/operadriver_win64.zip"
         },
         {
             "name": "operadriver",
