@@ -2323,8 +2323,7 @@
             "bit": "64",
             "version": "0.28.0",
             "url": "https://github.com/mozilla/geckodriver/releases/download/v0.28.0/geckodriver-v0.28.0-macos.tar.gz"
-        },
-        {
+        },{
             "name": "geckodriver",
             "platform": "windows",
             "bit": "64",
