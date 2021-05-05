@@ -4,6 +4,27 @@
             "name": "chromedriver",
             "platform": "windows",
             "bit": "32",
+            "version": "91.0.4472.19",
+            "url": "https://chromedriver.storage.googleapis.com/91.0.4472.19/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "91.0.4472.19",
+            "url": "https://chromedriver.storage.googleapis.com/91.0.4472.19/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "91.0.4472.19",
+            "url": "https://chromedriver.storage.googleapis.com/91.0.4472.19/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
             "version": "90.0.4430.24",
             "url": "https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_win32.zip"
         },
