@@ -4,6 +4,69 @@
             "name": "chromedriver",
             "platform": "windows",
             "bit": "32",
+            "version": "91.0.4472.19",
+            "url": "https://chromedriver.storage.googleapis.com/91.0.4472.19/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "91.0.4472.19",
+            "url": "https://chromedriver.storage.googleapis.com/91.0.4472.19/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "91.0.4472.19",
+            "url": "https://chromedriver.storage.googleapis.com/91.0.4472.19/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "90.0.4430.24",
+            "url": "https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "90.0.4430.24",
+            "url": "https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "90.0.4430.24",
+            "url": "https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "89.0.4389.23",
+            "url": "https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "89.0.4389.23",
+            "url": "https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "89.0.4389.23",
+            "url": "https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
             "version": "88.0.4324.96",
             "url": "https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_win32.zip"
         },
@@ -2253,6 +2316,41 @@
             "version": "1.9.7",
             "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-windows.zip",
             "fileMatchInside": ".*/phantomjs.exe$"
+        },
+        {
+            "name": "geckodriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "0.29.1",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-win64.zip"
+        },
+        {
+            "name": "geckodriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "0.29.1",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-win32.zip"
+        },
+        {
+            "name": "geckodriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "0.29.1",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux64.tar.gz"
+        },
+        {
+            "name": "geckodriver",
+            "platform": "linux",
+            "bit": "32",
+            "version": "0.29.1",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux32.tar.gz"
+        },
+        {
+            "name": "geckodriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "0.29.1",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-macos.tar.gz"
         },
         {
             "name": "geckodriver",
