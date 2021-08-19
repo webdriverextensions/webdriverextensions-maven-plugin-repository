@@ -4,6 +4,90 @@
             "name": "chromedriver",
             "platform": "windows",
             "bit": "32",
+            "version": "93.0.4577.15",
+            "url": "https://chromedriver.storage.googleapis.com/93.0.4577.15/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "93.0.4577.15",
+            "url": "https://chromedriver.storage.googleapis.com/93.0.4577.15/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "93.0.4577.15",
+            "url": "https://chromedriver.storage.googleapis.com/93.0.4577.15/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "92.0.4515.107",
+            "url": "https://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "92.0.4515.107",
+            "url": "https://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "92.0.4515.107",
+            "url": "https://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "92.0.4515.43",
+            "url": "https://chromedriver.storage.googleapis.com/92.0.4515.43/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "92.0.4515.43",
+            "url": "https://chromedriver.storage.googleapis.com/92.0.4515.43/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "92.0.4515.43",
+            "url": "https://chromedriver.storage.googleapis.com/92.0.4515.43/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "91.0.4472.101",
+            "url": "https://chromedriver.storage.googleapis.com/91.0.4472.101/chromedriver_win32.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "91.0.4472.101",
+            "url": "https://chromedriver.storage.googleapis.com/91.0.4472.101/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "91.0.4472.101",
+            "url": "https://chromedriver.storage.googleapis.com/91.0.4472.101/chromedriver_linux64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "windows",
+            "bit": "32",
             "version": "91.0.4472.19",
             "url": "https://chromedriver.storage.googleapis.com/91.0.4472.19/chromedriver_win32.zip"
         },
