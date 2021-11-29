@@ -16,6 +16,13 @@
         },
         {
             "name": "chromedriver",
+            "platform": "mac",
+            "bit": "arm64",
+            "version": "95.0.4638.17",
+            "url": "https://chromedriver.storage.googleapis.com/95.0.4638.17/chromedriver_mac64_m1.zip"
+        },
+        {
+            "name": "chromedriver",
             "platform": "linux",
             "bit": "64",
             "version": "95.0.4638.17",
