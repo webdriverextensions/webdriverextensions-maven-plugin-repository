@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/webdriverextensions/webdriverextensions-maven-plugin-repository.png)](https://travis-ci.org/webdriverextensions/webdriverextensions-maven-plugin-repository)
-
 ![Plugin Repository CI](https://github.com/webdriverextensions/webdriverextensions-maven-plugin-repository/workflows/Plugin%20Repository%20CI/badge.svg)
 
 WebDriver Extensions Maven Plugin Repository 3.0
