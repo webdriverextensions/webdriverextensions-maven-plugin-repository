@@ -2529,6 +2529,13 @@
         },
         {
             "name": "geckodriver",
+            "platform": "mac",
+            "bit": "arm64",
+            "version": "0.30.0",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-macos-aarch64.tar.gz"
+        },
+        {
+            "name": "geckodriver",
             "platform": "windows",
             "bit": "64",
             "version": "0.29.1",
