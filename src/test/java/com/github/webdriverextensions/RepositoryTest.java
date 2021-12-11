@@ -8,7 +8,6 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
@@ -35,7 +34,7 @@ class RepositoryTest {
     @MethodSource("data")
     void test(final String name, final String bit, final String platform, final String version, final String url, final String fileMatchInside) throws IOException, InterruptedException {
         URI uri = URI.create(url);
-        String fileName = Paths.get(uri.getPath()).getFileName().toString();
+        String fileName = Path.of(uri.getPath()).getFileName().toString();
         boolean isIEDriver = "internetexplorerdriver".equals(name);
         boolean isEdgeDriver = "edgedriver".equals(name);
         boolean isChromeBetaDriver = "chromedriver-beta".equals(name);
