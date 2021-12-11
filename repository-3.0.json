@@ -3449,6 +3449,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "80.0.361.47",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/80.0.361.47/edgedriver_win32.zip"
         },
         {
@@ -3456,6 +3457,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "80.0.361.47",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/80.0.361.47/edgedriver_win64.zip"
         },
         {
@@ -3470,6 +3472,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "80.0.361.48",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/80.0.361.48/edgedriver_win32.zip"
         },
         {
@@ -3477,6 +3480,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "80.0.361.48",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/80.0.361.48/edgedriver_win64.zip"
         },
         {
@@ -3491,6 +3495,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "80.0.361.50",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/80.0.361.50/edgedriver_win32.zip"
         },
         {
@@ -3498,6 +3503,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "80.0.361.50",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/80.0.361.50/edgedriver_win64.zip"
         },
         {
@@ -3512,6 +3518,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "81.0.415.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/81.0.415.0/edgedriver_win32.zip"
         },
         {
@@ -3519,6 +3526,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "81.0.415.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/81.0.415.0/edgedriver_win64.zip"
         },
         {
@@ -3533,6 +3541,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "81.0.416.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/81.0.416.0/edgedriver_win32.zip"
         },
         {
@@ -3540,6 +3549,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "81.0.416.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/81.0.416.0/edgedriver_win64.zip"
         },
         {
@@ -3554,6 +3564,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "81.0.416.3",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/81.0.416.3/edgedriver_win32.zip"
         },
         {
@@ -3561,6 +3572,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "81.0.416.3",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/81.0.416.3/edgedriver_win64.zip"
         },
         {
@@ -3575,6 +3587,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "82.0.418.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/82.0.418.0/edgedriver_win32.zip"
         },
         {
@@ -3582,6 +3595,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "82.0.418.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/82.0.418.0/edgedriver_win64.zip"
         },
         {
@@ -3596,6 +3610,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "82.0.421.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/82.0.421.0/edgedriver_win32.zip"
         },
         {
@@ -3603,6 +3618,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "82.0.421.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/82.0.421.0/edgedriver_win64.zip"
         },
         {
@@ -3617,6 +3633,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "82.0.422.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/82.0.422.0/edgedriver_win32.zip"
         },
         {
@@ -3624,6 +3641,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "82.0.422.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/82.0.422.0/edgedriver_win64.zip"
         },
         {
@@ -3638,6 +3656,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "84.0.522.52",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/84.0.522.52/edgedriver_win32.zip"
         },
         {
@@ -3645,6 +3664,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "84.0.522.52",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/84.0.522.52/edgedriver_win64.zip"
         },
         {
@@ -3659,6 +3679,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "85.0.564.17",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/85.0.564.17/edgedriver_win32.zip"
         },
         {
@@ -3666,6 +3687,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "85.0.564.17",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/85.0.564.17/edgedriver_win64.zip"
         },
         {
@@ -3680,6 +3702,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "86.0.601.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/86.0.601.0/edgedriver_win32.zip"
         },
         {
@@ -3687,6 +3710,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "86.0.601.0",
+            "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/86.0.601.0/edgedriver_win64.zip"
         },
         {
@@ -3701,6 +3725,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "2.30",
+            "fileMatchInside": "^.+/operadriver\\.exe$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.30/operadriver_win64.zip"
         },
         {
@@ -3708,6 +3733,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "2.30",
+            "fileMatchInside": "^.+/operadriver\\.exe$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.30/operadriver_win32.zip"
         },
         {
@@ -3715,6 +3741,7 @@
             "platform": "linux",
             "bit": "64",
             "version": "2.30",
+            "fileMatchInside": "^.+/operadriver$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.30/operadriver_linux64.zip"
         },
         {
@@ -3722,6 +3749,7 @@
             "platform": "mac",
             "bit": "64",
             "version": "2.30",
+            "fileMatchInside": "^.+/operadriver$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.30/operadriver_mac64.zip"
         },
         {
@@ -3729,6 +3757,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "2.29",
+            "fileMatchInside": "^.+/operadriver\\.exe$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.29/operadriver_win64.zip"
         },
         {
@@ -3736,6 +3765,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "2.29",
+            "fileMatchInside": "^.+/operadriver\\.exe$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.29/operadriver_win32.zip"
         },
         {
@@ -3743,6 +3773,7 @@
             "platform": "linux",
             "bit": "64",
             "version": "2.29",
+            "fileMatchInside": "^.+/operadriver$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.29/operadriver_linux64.zip"
         },
         {
@@ -3750,6 +3781,7 @@
             "platform": "mac",
             "bit": "64",
             "version": "2.29",
+            "fileMatchInside": "^.+/operadriver$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.29/operadriver_mac64.zip"
         },
         {
@@ -3757,6 +3789,7 @@
             "platform": "windows",
             "bit": "64",
             "version": "2.27",
+            "fileMatchInside": "^.+/operadriver\\.exe$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.27/operadriver_win64.zip"
         },
         {
@@ -3764,6 +3797,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "2.27",
+            "fileMatchInside": "^.+/operadriver\\.exe$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.27/operadriver_win32.zip"
         },
         {
@@ -3771,6 +3805,7 @@
             "platform": "linux",
             "bit": "64",
             "version": "2.27",
+            "fileMatchInside": "^.+/operadriver$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.27/operadriver_linux64.zip"
         },
         {
@@ -3778,6 +3813,7 @@
             "platform": "linux",
             "bit": "32",
             "version": "2.27",
+            "fileMatchInside": "^.+/operadriver$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.27/operadriver_linux32.zip"
         },
         {
@@ -3785,6 +3821,7 @@
             "platform": "mac",
             "bit": "64",
             "version": "2.27",
+            "fileMatchInside": "^.+/operadriver$",
             "url": "https://github.com/operasoftware/operachromiumdriver/releases/download/v.2.27/operadriver_mac64.zip"
         },
         {
