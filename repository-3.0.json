@@ -310,6 +310,13 @@
         },
         {
             "name": "chromedriver",
+            "platform": "mac",
+            "bit": "arm64",
+            "version": "95.0.4638.17",
+            "url": "https://chromedriver.storage.googleapis.com/95.0.4638.17/chromedriver_mac64_m1.zip"
+        },
+        {
+            "name": "chromedriver",
             "platform": "linux",
             "bit": "64",
             "version": "95.0.4638.17",
@@ -2848,6 +2855,13 @@
             "bit": "64",
             "version": "0.30.0",
             "url": "https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-macos.tar.gz"
+        },
+        {
+            "name": "geckodriver",
+            "platform": "mac",
+            "bit": "arm64",
+            "version": "0.30.0",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-macos-aarch64.tar.gz"
         },
         {
             "name": "geckodriver",
