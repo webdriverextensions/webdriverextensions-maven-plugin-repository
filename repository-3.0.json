@@ -4029,6 +4029,29 @@
             "url": "https://msedgedriver.azureedge.net/86.0.601.0/edgedriver_mac64.zip"
         },
         {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "103.0.1264.77",
+            "fileMatchInside": "^msedgedriver\\.exe$",
+            "url": "https://msedgedriver.azureedge.net/103.0.1264.77/edgedriver_win32.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "103.0.1264.77",
+            "fileMatchInside": "^msedgedriver\\.exe$",
+            "url": "https://msedgedriver.azureedge.net/103.0.1264.77/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "mac",
+            "bit": "64",
+            "version": "103.0.1264.77",
+            "url": "https://msedgedriver.azureedge.net/103.0.1264.77/edgedriver_mac64.zip"
+        },
+        {
             "name": "operadriver",
             "platform": "windows",
             "bit": "64",
