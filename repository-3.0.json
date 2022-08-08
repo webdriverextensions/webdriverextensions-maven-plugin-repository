@@ -4073,6 +4073,13 @@
             "url": "https://msedgedriver.azureedge.net/103.0.1264.77/edgedriver_mac64.zip"
         },
         {
+            "name": "edgedriver",
+            "platform": "linux",
+            "bit": "64",
+            "version": "103.0.1264.77",
+            "url": "https://msedgedriver.azureedge.net/103.0.1264.77/edgedriver_linux64.zip"
+        },
+        {
             "name": "operadriver",
             "platform": "windows",
             "bit": "64",
