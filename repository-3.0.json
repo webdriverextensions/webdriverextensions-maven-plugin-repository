@@ -2862,8 +2862,17 @@
             "name": "geckodriver",
             "platform": "mac",
             "bit": "64",
+            "arch": "amd64",
             "version": "0.31.0",
             "url": "https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-macos.tar.gz"
+        },
+        {
+            "name": "geckodriver",
+            "platform": "mac",
+            "bit": "64",
+            "arch": "aarch64",
+            "version": "0.31.0",
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-macos-aarch64.tar.gz"
         },
         {
             "name": "geckodriver",
