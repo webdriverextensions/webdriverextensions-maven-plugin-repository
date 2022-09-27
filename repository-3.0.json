@@ -11,8 +11,17 @@
             "name": "chromedriver",
             "platform": "mac",
             "bit": "64",
+            "arch": "amd64",
             "version": "105.0.5195.52",
             "url": "https://chromedriver.storage.googleapis.com/105.0.5195.52/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "arch": "aarch64",
+            "version": "105.0.5195.52",
+            "url": "https://chromedriver.storage.googleapis.com/105.0.5195.52/chromedriver_mac64_m1.zip"
         },
         {
             "name": "chromedriver",
