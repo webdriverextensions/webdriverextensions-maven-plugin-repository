@@ -3797,6 +3797,14 @@
         {
             "name": "edgedriver",
             "platform": "windows",
+            "bit": "64",
+            "version": "105.0.1343.27",
+            "fileMatchInside": "^msedgedriver\\.exe$",
+            "url": "https://msedgedriver.azureedge.net/105.0.1343.27/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
             "bit": "32",
             "version": "80.0.361.47",
             "fileMatchInside": "^msedgedriver\\.exe$",
