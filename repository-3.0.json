@@ -4330,9 +4330,19 @@
             "name": "edgedriver",
             "platform": "windows",
             "bit": "64",
+            "arch": "amd64",
             "version": "107.0.1418.62",
             "fileMatchInside": "^msedgedriver\\.exe$",
             "url": "https://msedgedriver.azureedge.net/107.0.1418.62/edgedriver_win64.zip"
+        },
+        {
+            "name": "edgedriver",
+            "platform": "windows",
+            "bit": "64",
+            "arch": "aarch64",
+            "version": "107.0.1418.62",
+            "fileMatchInside": "^msedgedriver\\.exe$",
+            "url": "https://msedgedriver.azureedge.net/107.0.1418.62/edgedriver_arm64.zip"
         },
         {
             "name": "edgedriver",
