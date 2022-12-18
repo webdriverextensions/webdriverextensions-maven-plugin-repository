@@ -1,17 +1,18 @@
 package com.github.webdriverextensions;
 
-import com.google.gson.Gson;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.networknt.schema.JsonSchemaFactory;
+import com.networknt.schema.SpecVersion;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Duration;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
-import lombok.Getter;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -22,12 +23,20 @@ import static org.assertj.core.api.Assertions.assertThatCode;
 class RepositoryTest {
 
     static Stream<Arguments> data() throws IOException {
-        String json = Files.readString(Path.of("repository-3.0.json"));
-        RepositoryJson repositoryJson = new Gson().fromJson(json, RepositoryJson.class);
+        final var mapper = new ObjectMapper();
+        final var repositoryJson = mapper.readValue(Path.of("repository-3.0.json").toFile(), RepositoryJson.class);
+        return Stream.of(repositoryJson.drivers())
+                .map(driver -> Arguments.of(driver.name(), driver.bit(), driver.platform(), driver.version(), driver.url(), driver.fileMatchInside()));
+    }
 
-        Driver[] drivers = repositoryJson.getDrivers();
-        return Stream.of(drivers)
-                .map(driver -> Arguments.of(driver.getName(), driver.getBit(), driver.getPlatform(), driver.getVersion(), driver.getUrl(), driver.getFileMatchInside()));
+    @Test
+    void validateSchema() throws IOException {
+        final var factory = JsonSchemaFactory.getInstance(SpecVersion.VersionFlag.V7);
+        final var jsonSchema = factory.getSchema(URI.create("https://raw.githubusercontent.com/webdriverextensions/webdriverextensions-maven-plugin/master/drivers-schema.json"));
+        final var mapper = new ObjectMapper();
+        final var jsonNode = mapper.readTree(Path.of("repository-3.0.json").toFile());
+        final var validationErrors = jsonSchema.validate(jsonNode);
+        assertThat(validationErrors).describedAs("Schema validation failed").isEmpty();
     }
 
     @ParameterizedTest(name = "{0} {1}bit {2} version{3}")
@@ -88,20 +97,11 @@ class RepositoryTest {
         assertThat(response.statusCode()).describedAs(description).isEqualTo(expectedStatusCode);
     }
 
-    @Getter
-    private static class RepositoryJson {
+    private static record RepositoryJson(Driver[] drivers) {
 
-        private Driver[] drivers;
     }
 
-    @Getter
-    private static class Driver {
+    private static record Driver(String name, String platform, String bit, String arch, String version, String url, String fileMatchInside, String customFileName) {
 
-        private String name;
-        private String platform;
-        private String bit;
-        private String version;
-        private String url;
-        private String fileMatchInside;
     }
 }
