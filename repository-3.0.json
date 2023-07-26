@@ -9,6 +9,22 @@
         },
         {
             "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "arch": "amd64",
+            "version": "114.0.5735.90",
+            "url": "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_mac64.zip"
+        },
+        {
+            "name": "chromedriver",
+            "platform": "mac",
+            "bit": "64",
+            "arch": "aarch64",
+            "version": "114.0.5735.90",
+            "url": "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_mac_arm64.zip"
+        },
+        {
+            "name": "chromedriver",
             "platform": "linux",
             "bit": "64",
             "version": "114.0.5735.90",
