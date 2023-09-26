@@ -1,6 +1,48 @@
 {
     "drivers": [
         {
+        	"name": "chromedriver",
+        	"platform": "windows",
+        	"bit": "32",
+        	"version": "116.0.5845.96",
+        	"url": "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip",
+        	"fileMatchInside": ".*chromedriver.exe$"
+        },
+        {
+        	"name": "chromedriver",
+        	"platform": "windows",
+        	"bit": "64",
+        	"version": "116.0.5845.96",
+        	"url": "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win64/chromedriver-win64.zip",
+        	"fileMatchInside": ".*chromedriver.exe$"
+        },
+        {
+        	"name": "chromedriver",
+        	"platform": "mac",
+        	"bit": "64",
+        	"arch": "amd64",
+        	"version": "116.0.5845.96",
+        	"url": "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/mac-x64/chromedriver-mac-x64.zip",
+        	"fileMatchInside": ".*chromedriver$"
+        },
+        {
+        	"name": "chromedriver",
+        	"platform": "mac",
+        	"bit": "64",
+        	"arch": "aarch64",
+        	"version": "116.0.5845.96",
+        	"url": "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/mac-arm64/chromedriver-mac-arm64.zip",
+        	"fileMatchInside": ".*chromedriver$"
+        },
+        {
+        	"name": "chromedriver",
+        	"platform": "linux",
+        	"bit": "64",
+        	"version": "116.0.5845.96",
+        	"url": "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/linux64/chromedriver-linux64.zip",
+        	"fileMatchInside": ".*chromedriver$"
+        },
+        {
             "name": "geckodriver",
             "platform": "windows",
             "bit": "64",
