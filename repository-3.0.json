@@ -11,7 +11,7 @@
         {
         	"name": "chromedriver",
         	"platform": "windows",
-        	"bit": "32",
+        	"bit": "64",
         	"version": "116.0.5845.96",
         	"url": "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win64/chromedriver-win64.zip",
         	"fileMatchInside": ".*chromedriver.exe$"
