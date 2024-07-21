@@ -12,6 +12,7 @@ import java.nio.file.Path;
 import java.time.Duration;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -29,6 +30,7 @@ class RepositoryTest {
                 .map(driver -> Arguments.of(driver.name(), driver.bit(), driver.platform(), driver.version(), driver.url(), driver.fileMatchInside()));
     }
 
+    @DisplayName("verify schema is valid")
     @Test
     void validateSchema() throws IOException {
         final var factory = JsonSchemaFactory.getInstance(SpecVersion.VersionFlag.V7);
@@ -39,7 +41,8 @@ class RepositoryTest {
         assertThat(validationErrors).describedAs("Schema validation failed").isEmpty();
     }
 
-    @ParameterizedTest(name = "{0} {1}bit {2} version{3}")
+    @DisplayName("Test driver availability")
+    @ParameterizedTest(name = "{0} {1}-bit for {2} and version {3}")
     @MethodSource("data")
     void test(final String name, final String bit, final String platform, final String version, final String url, final String fileMatchInside) throws IOException, InterruptedException {
         URI uri = URI.create(url);
@@ -49,24 +52,24 @@ class RepositoryTest {
         boolean isChromeBetaDriver = "chromedriver-beta".equals(name);
         if (isIEDriver) {
             assertThat(fileName)
-                    .describedAs("url '" + url + "' should contain name 'IEDriverServer_'")
+                    .describedAs("url '%s' should contain name 'IEDriverServer_'", url)
                     .matches("IEDriverServer_.*");
         } else if (isEdgeDriver) {
             assertThat(fileName)
-                    .describedAs("url '" + url + "' should contain name 'MicrosoftWebDriver' or 'edgedriver'")
+                    .describedAs("url '%s' should contain name 'MicrosoftWebDriver' or 'edgedriver'", url)
                     .matches("MicrosoftWebDriver.*|edgedriver.*");
         } else if (isChromeBetaDriver) {
             assertThat(fileName)
-                    .describedAs("url '" + url + "' should contain 'chromedriver'")
+                    .describedAs("url '%s' should contain 'chromedriver'", url)
                     .matches("chromedriver.*");
         } else {
             assertThat(fileName)
-                    .describedAs("url '" + url + "' should contain name '" + name + "'")
+                    .describedAs("url '%s' should contain name '%s'", url, name)
                     .matches(name + "[_-].*");
         }
 
         assertThat(fileName)
-                .describedAs("url '" + url + "' should contain address extension 'zip','tar.bz2','gz','exe'")
+                .describedAs("url '%s' should contain address extension 'zip','tar.bz2','gz','exe'", url)
                 .matches(".*(zip|tar\\.bz2|gz|exe)");
 
         if (fileMatchInside != null) {
@@ -76,7 +79,6 @@ class RepositoryTest {
                     .doesNotThrowAnyException();
         }
 
-        String description = "url '" + url + "' is invalid";
         int expectedStatusCode = 200;
         final var requestBuilder = HttpRequest.newBuilder(uri)
                 .timeout(Duration.ofMinutes(1))
@@ -94,7 +96,7 @@ class RepositoryTest {
         }
 
         final var response = clientBuilder.build().send(requestBuilder.build(), HttpResponse.BodyHandlers.discarding());
-        assertThat(response.statusCode()).describedAs(description).isEqualTo(expectedStatusCode);
+        assertThat(response.statusCode()).describedAs("url '%s' is invalid", url).isEqualTo(expectedStatusCode);
     }
 
     private static record RepositoryJson(Driver[] drivers) {
