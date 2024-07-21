@@ -8,6 +8,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  schedule:
+    - cron: '0 6 1 * *'
 
 jobs:
   test:
@@ -15,17 +17,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Set up JDK
-      uses: actions/setup-java@v2
+      uses: actions/setup-java@v4
       with:
-        java-version: 17
+        java-version: 21
         distribution: 'temurin'
-    - name: Cache Maven packages
-      uses: actions/cache@v2
-      with:
-        path: ~/.m2
-        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-        restore-keys: ${{ runner.os }}-m2
+        cache: 'maven'
     - name: Test Repository Changes
-      run: mvn -B clean verify -e
+      run: mvn -B -e verify
