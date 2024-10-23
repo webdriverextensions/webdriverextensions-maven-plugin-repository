@@ -1,6 +1,185 @@
 {
     "drivers": [
         {
+          "name": "geckodriver",
+          "platform": "windows",
+          "bit": "64",
+          "arch": "amd64",
+          "version": "0.35.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-win64.zip"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "windows",
+          "bit": "64",
+          "arch": "aarch64",
+          "version": "0.35.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-win-aarch64.zip"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "windows",
+          "bit": "32",
+          "version": "0.35.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-win32.zip"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "linux",
+          "bit": "64",
+          "arch": "amd64",
+          "version": "0.35.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-linux64.tar.gz"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "linux",
+          "bit": "64",
+          "arch": "aarch64",
+          "version": "0.35.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-linux-aarch64.tar.gz"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "linux",
+          "bit": "32",
+          "version": "0.35.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-linux32.tar.gz"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "mac",
+          "bit": "64",
+          "arch": "amd64",
+          "version": "0.35.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-macos.tar.gz"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "mac",
+          "bit": "64",
+          "arch": "aarch64",
+          "version": "0.35.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-macos-aarch64.tar.gz"
+        },
+        {
+          "name": "edgedriver",
+          "platform": "windows",
+          "bit": "32",
+          "version": "130.0.2849.46",
+          "fileMatchInside": "^msedgedriver\\.exe$",
+          "url": "https://msedgedriver.azureedge.net/130.0.2849.46/edgedriver_win32.zip"
+        },
+        {
+          "name": "edgedriver",
+          "platform": "windows",
+          "bit": "64",
+          "arch": "amd64",
+          "version": "130.0.2849.46",
+          "fileMatchInside": "^msedgedriver\\.exe$",
+          "url": "https://msedgedriver.azureedge.net/130.0.2849.46/edgedriver_win64.zip"
+        },
+        {
+          "name": "edgedriver",
+          "platform": "windows",
+          "bit": "64",
+          "arch": "aarch64",
+          "version": "130.0.2849.46",
+          "fileMatchInside": "^msedgedriver\\.exe$",
+          "url": "https://msedgedriver.azureedge.net/130.0.2849.46/edgedriver_arm64.zip"
+        },
+        {
+          "name": "edgedriver",
+          "platform": "windows",
+          "bit": "32",
+          "version": "129.0.2792.65",
+          "fileMatchInside": "^msedgedriver\\.exe$",
+          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_win32.zip"
+        },
+        {
+          "name": "edgedriver",
+          "platform": "windows",
+          "bit": "64",
+          "arch": "amd64",
+          "version": "129.0.2792.65",
+          "fileMatchInside": "^msedgedriver\\.exe$",
+          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_win64.zip"
+        },
+        {
+          "name": "edgedriver",
+          "platform": "windows",
+          "bit": "64",
+          "arch": "aarch64",
+          "version": "129.0.2792.65",
+          "fileMatchInside": "^msedgedriver\\.exe$",
+          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_arm64.zip"
+        },
+        {
+          "name": "edgedriver",
+          "platform": "mac",
+          "bit": "64",
+          "arch": "amd64",
+          "version": "129.0.2792.65",
+          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_mac64.zip"
+        },
+        {
+          "name": "edgedriver",
+          "platform": "mac",
+          "bit": "64",
+          "arch": "aarch64",
+          "version": "129.0.2792.65",
+          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_mac64_m1.zip"
+        },
+        {
+          "name": "edgedriver",
+          "platform": "linux",
+          "bit": "64",
+          "version": "129.0.2792.65",
+          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_linux64.zip"
+        },
+        {
+          "name": "chromedriver",
+          "platform": "windows",
+          "bit": "32",
+          "version": "130.0.6723.59",
+          "url": "https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.59/win32/chromedriver-win32.zip",
+          "fileMatchInside": ".*chromedriver.exe$"
+        },
+        {
+          "name": "chromedriver",
+          "platform": "windows",
+          "bit": "64",
+          "version": "130.0.6723.59",
+          "url": "https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.59/win64/chromedriver-win64.zip",
+          "fileMatchInside": ".*chromedriver.exe$"
+        },
+        {
+          "name": "chromedriver",
+          "platform": "mac",
+          "bit": "64",
+          "arch": "amd64",
+          "version": "130.0.6723.59",
+          "url": "https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.59/mac-x64/chromedriver-mac-x64.zip",
+          "fileMatchInside": ".*chromedriver$"
+        },
+        {
+          "name": "chromedriver",
+          "platform": "mac",
+          "bit": "64",
+          "arch": "aarch64",
+          "version": "130.0.6723.59",
+          "url": "https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.59/mac-arm64/chromedriver-mac-arm64.zip",
+          "fileMatchInside": ".*chromedriver$"
+        },
+        {
+          "name": "chromedriver",
+          "platform": "linux",
+          "bit": "64",
+          "version": "130.0.6723.59",
+          "url": "https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.59/linux64/chromedriver-linux64.zip",
+          "fileMatchInside": ".*chromedriver$"
+        },
+        {
         	"name": "chromedriver",
         	"platform": "windows",
         	"bit": "32",
