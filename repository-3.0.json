@@ -5,6 +5,68 @@
           "platform": "windows",
           "bit": "64",
           "arch": "amd64",
+          "version": "0.36.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "windows",
+          "bit": "64",
+          "arch": "aarch64",
+          "version": "0.36.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win-aarch64.zip"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "windows",
+          "bit": "32",
+          "version": "0.36.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win32.zip"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "linux",
+          "bit": "64",
+          "arch": "amd64",
+          "version": "0.36.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "linux",
+          "bit": "64",
+          "arch": "aarch64",
+          "version": "0.36.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux-aarch64.tar.gz"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "linux",
+          "bit": "32",
+          "version": "0.36.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux32.tar.gz"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "mac",
+          "bit": "64",
+          "arch": "amd64",
+          "version": "0.36.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-macos.tar.gz"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "mac",
+          "bit": "64",
+          "arch": "aarch64",
+          "version": "0.36.0",
+          "url": "https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-macos-aarch64.tar.gz"
+        },
+        {
+          "name": "geckodriver",
+          "platform": "windows",
+          "bit": "64",
+          "arch": "amd64",
           "version": "0.35.0",
           "url": "https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-win64.zip"
         },
