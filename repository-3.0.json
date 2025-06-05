@@ -1,6 +1,48 @@
 {
     "drivers": [
         {
+		"name": "chromedriver",
+		"platform": "windows",
+		"bit": "32",
+		"version": "137.0.7151.68",
+		"url": "https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip",
+		"fileMatchInside": ".*chromedriver.exe$"
+        },
+        {
+		"name": "chromedriver",
+		"platform": "windows",
+		"bit": "64",
+		"version": "137.0.7151.68",
+		"url": "https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win64/chromedriver-win64.zip",
+		"fileMatchInside": ".*chromedriver.exe$"
+        },
+        {
+		"name": "chromedriver",
+		"platform": "mac",
+		"bit": "64",
+		"arch": "amd64",
+		"version": "137.0.7151.68",
+		"url": "https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/mac-x64/chromedriver-mac-x64.zip",
+		"fileMatchInside": ".*chromedriver$"
+        },
+        {
+		"name": "chromedriver",
+		"platform": "mac",
+		"bit": "64",
+		"arch": "aarch64",
+		"version": "137.0.7151.68",
+		"url": "https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/mac-arm64/chromedriver-mac-arm64.zip",
+		"fileMatchInside": ".*chromedriver$"
+        },
+        {
+		"name": "chromedriver",
+		"platform": "linux",
+		"bit": "64",
+		"version": "137.0.7151.68",
+		"url": "https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/linux64/chromedriver-linux64.zip",
+		"fileMatchInside": ".*chromedriver$"
+        },
+        {
 		"name": "edgedriver",
 		"platform": "windows",
 		"bit": "32",
