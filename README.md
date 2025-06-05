@@ -8,6 +8,12 @@ This is the home of the drivers repository used by the [WebDriver Extensions Mav
 Simply just fork this repo, add the driver info in the [repository-3.0.json](https://github.com/webdriverextensions/webdriverextensions-maven-plugin-repository/blob/master/repository-3.0.json) file and do a PR. 
 No need to add the drivers to repository.json since that repo is no longer maintained.
 
+### Where to find drivers?
+- chromedriver: https://googlechromelabs.github.io/chrome-for-testing/
+- geckodriver: https://github.com/mozilla/geckodriver/releases
+- edgedriver: https://developer.microsoft.com/microsoft-edge/tools/webdriver/
+- operadriver: https://github.com/operasoftware/operachromiumdriver/releases
+
 ### How does an entry of a driver look like?
 The repository JSON must be validated against [the driver schema](https://github.com/webdriverextensions/webdriverextensions-maven-plugin/blob/master/drivers-schema.json). Each driver entry is an object with the following properties (*the ones in bold are required*).
 
