@@ -44,7 +44,7 @@ class RepositoryTest {
     @DisplayName("Test driver availability")
     @ParameterizedTest(name = "{0} {1}-bit for {2} and version {3}")
     @MethodSource("data")
-    void test(final String name, final String bit, final String platform, final String version, final String url, final String fileMatchInside) throws IOException, InterruptedException {
+    void test(final String name, final String bit, final String platform, final String version, final String url, final String fileMatchInside) {
         URI uri = URI.create(url);
         String fileName = Path.of(uri.getPath()).getFileName().toString();
         boolean isIEDriver = "internetexplorerdriver".equals(name);
@@ -95,7 +95,12 @@ class RepositoryTest {
             clientBuilder.version(HttpClient.Version.HTTP_1_1);
         }
 
-        final var response = clientBuilder.build().send(requestBuilder.build(), HttpResponse.BodyHandlers.discarding());
+        final HttpResponse<Void> response;
+        try {
+            response = clientBuilder.build().send(requestBuilder.build(), HttpResponse.BodyHandlers.discarding());
+        } catch (IOException | InterruptedException ex) {
+            throw new AssertionError("url '%s' has errors".formatted(url), ex);
+        }
         assertThat(response.statusCode()).describedAs("url '%s' is invalid", url).isEqualTo(expectedStatusCode);
     }
 
