@@ -80,7 +80,7 @@
 		"bit": "32",
 		"version": "137.0.3296.62",
 		"fileMatchInside": "^msedgedriver\\.exe$",
-		"url": "https://msedgedriver.azureedge.net/137.0.3296.62/edgedriver_win32.zip"
+		"url": "https://msedgedriver.microsoft.com/137.0.3296.62/edgedriver_win32.zip"
         },
         {
 		"name": "edgedriver",
@@ -89,7 +89,7 @@
 		"arch": "amd64",
 		"version": "137.0.3296.62",
 		"fileMatchInside": "^msedgedriver\\.exe$",
-		"url": "https://msedgedriver.azureedge.net/137.0.3296.62/edgedriver_win64.zip"
+		"url": "https://msedgedriver.microsoft.com/137.0.3296.62/edgedriver_win64.zip"
         },
         {
 		"name": "edgedriver",
@@ -98,7 +98,7 @@
 		"arch": "aarch64",
 		"version": "137.0.3296.62",
 		"fileMatchInside": "^msedgedriver\\.exe$",
-		"url": "https://msedgedriver.azureedge.net/137.0.3296.62/edgedriver_arm64.zip"
+		"url": "https://msedgedriver.microsoft.com/137.0.3296.62/edgedriver_arm64.zip"
         },
         {
 		"name": "edgedriver",
@@ -106,7 +106,7 @@
 		"bit": "64",
 		"arch": "amd64",
 		"version": "137.0.3296.62",
-		"url": "https://msedgedriver.azureedge.net/137.0.3296.62/edgedriver_mac64.zip"
+		"url": "https://msedgedriver.microsoft.com/137.0.3296.62/edgedriver_mac64.zip"
         },
         {
 		"name": "edgedriver",
@@ -114,14 +114,14 @@
 		"bit": "64",
 		"arch": "aarch64",
 		"version": "137.0.3296.62",
-		"url": "https://msedgedriver.azureedge.net/137.0.3296.62/edgedriver_mac64_m1.zip"
+		"url": "https://msedgedriver.microsoft.com/137.0.3296.62/edgedriver_mac64_m1.zip"
         },
         {
 		"name": "edgedriver",
 		"platform": "linux",
 		"bit": "64",
 		"version": "137.0.3296.62",
-		"url": "https://msedgedriver.azureedge.net/137.0.3296.62/edgedriver_linux64.zip"
+		"url": "https://msedgedriver.microsoft.com/137.0.3296.62/edgedriver_linux64.zip"
         },
         {
           "name": "geckodriver",
@@ -253,7 +253,7 @@
           "bit": "32",
           "version": "130.0.2849.46",
           "fileMatchInside": "^msedgedriver\\.exe$",
-          "url": "https://msedgedriver.azureedge.net/130.0.2849.46/edgedriver_win32.zip"
+          "url": "https://msedgedriver.microsoft.com/130.0.2849.46/edgedriver_win32.zip"
         },
         {
           "name": "edgedriver",
@@ -262,7 +262,7 @@
           "arch": "amd64",
           "version": "130.0.2849.46",
           "fileMatchInside": "^msedgedriver\\.exe$",
-          "url": "https://msedgedriver.azureedge.net/130.0.2849.46/edgedriver_win64.zip"
+          "url": "https://msedgedriver.microsoft.com/130.0.2849.46/edgedriver_win64.zip"
         },
         {
           "name": "edgedriver",
@@ -271,7 +271,7 @@
           "arch": "aarch64",
           "version": "130.0.2849.46",
           "fileMatchInside": "^msedgedriver\\.exe$",
-          "url": "https://msedgedriver.azureedge.net/130.0.2849.46/edgedriver_arm64.zip"
+          "url": "https://msedgedriver.microsoft.com/130.0.2849.46/edgedriver_arm64.zip"
         },
         {
           "name": "edgedriver",
@@ -279,7 +279,7 @@
           "bit": "32",
           "version": "129.0.2792.65",
           "fileMatchInside": "^msedgedriver\\.exe$",
-          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_win32.zip"
+          "url": "https://msedgedriver.microsoft.com/129.0.2792.65/edgedriver_win32.zip"
         },
         {
           "name": "edgedriver",
@@ -288,7 +288,7 @@
           "arch": "amd64",
           "version": "129.0.2792.65",
           "fileMatchInside": "^msedgedriver\\.exe$",
-          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_win64.zip"
+          "url": "https://msedgedriver.microsoft.com/129.0.2792.65/edgedriver_win64.zip"
         },
         {
           "name": "edgedriver",
@@ -297,7 +297,7 @@
           "arch": "aarch64",
           "version": "129.0.2792.65",
           "fileMatchInside": "^msedgedriver\\.exe$",
-          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_arm64.zip"
+          "url": "https://msedgedriver.microsoft.com/129.0.2792.65/edgedriver_arm64.zip"
         },
         {
           "name": "edgedriver",
@@ -305,7 +305,7 @@
           "bit": "64",
           "arch": "amd64",
           "version": "129.0.2792.65",
-          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_mac64.zip"
+          "url": "https://msedgedriver.microsoft.com/129.0.2792.65/edgedriver_mac64.zip"
         },
         {
           "name": "edgedriver",
@@ -313,14 +313,14 @@
           "bit": "64",
           "arch": "aarch64",
           "version": "129.0.2792.65",
-          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_mac64_m1.zip"
+          "url": "https://msedgedriver.microsoft.com/129.0.2792.65/edgedriver_mac64_m1.zip"
         },
         {
           "name": "edgedriver",
           "platform": "linux",
           "bit": "64",
           "version": "129.0.2792.65",
-          "url": "https://msedgedriver.azureedge.net/129.0.2792.65/edgedriver_linux64.zip"
+          "url": "https://msedgedriver.microsoft.com/129.0.2792.65/edgedriver_linux64.zip"
         },
         {
           "name": "chromedriver",
@@ -599,7 +599,7 @@
             "platform": "windows",
             "bit": "32",
             "version": "114.0.5735.90",
-            "url": "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip" 
+            "url": "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip"
         },
         {
             "name": "chromedriver",
@@ -660,7 +660,7 @@
             "bit": "32",
             "version": "110.0.1587.57",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/110.0.1587.57/edgedriver_win32.zip"
+            "url": "https://msedgedriver.microsoft.com/110.0.1587.57/edgedriver_win32.zip"
         },
         {
             "name": "edgedriver",
@@ -669,7 +669,7 @@
             "arch": "amd64",
             "version": "110.0.1587.57",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/110.0.1587.57/edgedriver_win64.zip"
+            "url": "https://msedgedriver.microsoft.com/110.0.1587.57/edgedriver_win64.zip"
         },
         {
             "name": "edgedriver",
@@ -678,7 +678,7 @@
             "arch": "aarch64",
             "version": "110.0.1587.57",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/110.0.1587.57/edgedriver_arm64.zip"
+            "url": "https://msedgedriver.microsoft.com/110.0.1587.57/edgedriver_arm64.zip"
         },
         {
             "name": "edgedriver",
@@ -686,7 +686,7 @@
             "bit": "64",
             "arch": "amd64",
             "version": "110.0.1587.57",
-            "url": "https://msedgedriver.azureedge.net/110.0.1587.57/edgedriver_mac64.zip"
+            "url": "https://msedgedriver.microsoft.com/110.0.1587.57/edgedriver_mac64.zip"
         },
         {
             "name": "edgedriver",
@@ -694,14 +694,14 @@
             "bit": "64",
             "arch": "aarch64",
             "version": "110.0.1587.57",
-            "url": "https://msedgedriver.azureedge.net/110.0.1587.57/edgedriver_mac64_m1.zip"
+            "url": "https://msedgedriver.microsoft.com/110.0.1587.57/edgedriver_mac64_m1.zip"
         },
         {
             "name": "edgedriver",
             "platform": "linux",
             "bit": "64",
             "version": "110.0.1587.57",
-            "url": "https://msedgedriver.azureedge.net/110.0.1587.57/edgedriver_linux64.zip"
+            "url": "https://msedgedriver.microsoft.com/110.0.1587.57/edgedriver_linux64.zip"
         },
         {
             "name": "geckodriver",
@@ -4623,7 +4623,7 @@
             "bit": "32",
             "version": "103.0.1264.77",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/103.0.1264.77/edgedriver_win32.zip"
+            "url": "https://msedgedriver.microsoft.com/103.0.1264.77/edgedriver_win32.zip"
         },
         {
             "name": "edgedriver",
@@ -4631,21 +4631,21 @@
             "bit": "64",
             "version": "103.0.1264.77",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/103.0.1264.77/edgedriver_win64.zip"
+            "url": "https://msedgedriver.microsoft.com/103.0.1264.77/edgedriver_win64.zip"
         },
         {
             "name": "edgedriver",
             "platform": "mac",
             "bit": "64",
             "version": "103.0.1264.77",
-            "url": "https://msedgedriver.azureedge.net/103.0.1264.77/edgedriver_mac64.zip"
+            "url": "https://msedgedriver.microsoft.com/103.0.1264.77/edgedriver_mac64.zip"
         },
         {
             "name": "edgedriver",
             "platform": "linux",
             "bit": "64",
             "version": "103.0.1264.77",
-            "url": "https://msedgedriver.azureedge.net/103.0.1264.77/edgedriver_linux64.zip"
+            "url": "https://msedgedriver.microsoft.com/103.0.1264.77/edgedriver_linux64.zip"
         },
         {
             "name": "edgedriver",
@@ -4653,7 +4653,7 @@
             "bit": "32",
             "version": "105.0.1343.53",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/105.0.1343.53/edgedriver_win32.zip"
+            "url": "https://msedgedriver.microsoft.com/105.0.1343.53/edgedriver_win32.zip"
         },
         {
             "name": "edgedriver",
@@ -4662,7 +4662,7 @@
             "arch": "amd64",
             "version": "105.0.1343.53",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/105.0.1343.53/edgedriver_win64.zip"
+            "url": "https://msedgedriver.microsoft.com/105.0.1343.53/edgedriver_win64.zip"
         },
         {
             "name": "edgedriver",
@@ -4671,14 +4671,14 @@
             "arch": "aarch64",
             "version": "105.0.1343.53",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/105.0.1343.53/edgedriver_arm64.zip"
+            "url": "https://msedgedriver.microsoft.com/105.0.1343.53/edgedriver_arm64.zip"
         },
         {
             "name": "edgedriver",
             "platform": "mac",
             "bit": "64",
             "version": "105.0.1343.53",
-            "url": "https://msedgedriver.azureedge.net/105.0.1343.53/edgedriver_mac64.zip"
+            "url": "https://msedgedriver.microsoft.com/105.0.1343.53/edgedriver_mac64.zip"
         },
         {
             "name": "edgedriver",
@@ -4686,14 +4686,14 @@
             "bit": "64",
             "arch": "aarch64",
             "version": "105.0.1343.53",
-            "url": "https://msedgedriver.azureedge.net/105.0.1343.53/edgedriver_mac64_m1.zip"
+            "url": "https://msedgedriver.microsoft.com/105.0.1343.53/edgedriver_mac64_m1.zip"
         },
         {
             "name": "edgedriver",
             "platform": "linux",
             "bit": "64",
             "version": "105.0.1343.53",
-            "url": "https://msedgedriver.azureedge.net/105.0.1343.53/edgedriver_linux64.zip"
+            "url": "https://msedgedriver.microsoft.com/105.0.1343.53/edgedriver_linux64.zip"
         },
         {
             "name": "edgedriver",
@@ -4701,7 +4701,7 @@
             "bit": "32",
             "version": "107.0.1418.62",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/107.0.1418.62/edgedriver_win32.zip"
+            "url": "https://msedgedriver.microsoft.com/107.0.1418.62/edgedriver_win32.zip"
         },
         {
             "name": "edgedriver",
@@ -4710,7 +4710,7 @@
             "arch": "amd64",
             "version": "107.0.1418.62",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/107.0.1418.62/edgedriver_win64.zip"
+            "url": "https://msedgedriver.microsoft.com/107.0.1418.62/edgedriver_win64.zip"
         },
         {
             "name": "edgedriver",
@@ -4719,14 +4719,14 @@
             "arch": "aarch64",
             "version": "107.0.1418.62",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/107.0.1418.62/edgedriver_arm64.zip"
+            "url": "https://msedgedriver.microsoft.com/107.0.1418.62/edgedriver_arm64.zip"
         },
         {
             "name": "edgedriver",
             "platform": "mac",
             "bit": "64",
             "version": "107.0.1418.68",
-            "url": "https://msedgedriver.azureedge.net/107.0.1418.68/edgedriver_mac64.zip"
+            "url": "https://msedgedriver.microsoft.com/107.0.1418.68/edgedriver_mac64.zip"
         },
         {
             "name": "edgedriver",
@@ -4734,14 +4734,14 @@
             "bit": "64",
             "arch": "aarch64",
             "version": "107.0.1418.68",
-            "url": "https://msedgedriver.azureedge.net/107.0.1418.68/edgedriver_mac64_m1.zip"
+            "url": "https://msedgedriver.microsoft.com/107.0.1418.68/edgedriver_mac64_m1.zip"
         },
         {
             "name": "edgedriver",
             "platform": "linux",
             "bit": "64",
             "version": "107.0.1418.62",
-            "url": "https://msedgedriver.azureedge.net/107.0.1418.62/edgedriver_linux64.zip"
+            "url": "https://msedgedriver.microsoft.com/107.0.1418.62/edgedriver_linux64.zip"
         },
         {
             "name": "edgedriver",
@@ -4749,7 +4749,7 @@
             "bit": "32",
             "version": "108.0.1462.38",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/108.0.1462.38/edgedriver_win32.zip"
+            "url": "https://msedgedriver.microsoft.com/108.0.1462.38/edgedriver_win32.zip"
         },
         {
             "name": "edgedriver",
@@ -4758,7 +4758,7 @@
             "arch": "amd64",
             "version": "108.0.1462.38",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/108.0.1462.38/edgedriver_win64.zip"
+            "url": "https://msedgedriver.microsoft.com/108.0.1462.38/edgedriver_win64.zip"
         },
         {
             "name": "edgedriver",
@@ -4767,7 +4767,7 @@
             "arch": "aarch64",
             "version": "108.0.1462.38",
             "fileMatchInside": "^msedgedriver\\.exe$",
-            "url": "https://msedgedriver.azureedge.net/108.0.1462.42/edgedriver_arm64.zip"
+            "url": "https://msedgedriver.microsoft.com/108.0.1462.42/edgedriver_arm64.zip"
         },
         {
             "name": "edgedriver",
@@ -4775,7 +4775,7 @@
             "bit": "64",
             "arch": "amd64",
             "version": "108.0.1462.41",
-            "url": "https://msedgedriver.azureedge.net/108.0.1462.41/edgedriver_mac64.zip"
+            "url": "https://msedgedriver.microsoft.com/108.0.1462.41/edgedriver_mac64.zip"
         },
         {
             "name": "edgedriver",
@@ -4783,14 +4783,14 @@
             "bit": "64",
             "arch": "aarch64",
             "version": "108.0.1462.41",
-            "url": "https://msedgedriver.azureedge.net/108.0.1462.41/edgedriver_mac64_m1.zip"
+            "url": "https://msedgedriver.microsoft.com/108.0.1462.41/edgedriver_mac64_m1.zip"
         },
         {
             "name": "edgedriver",
             "platform": "linux",
             "bit": "64",
             "version": "108.0.1462.42",
-            "url": "https://msedgedriver.azureedge.net/108.0.1462.42/edgedriver_linux64.zip"
+            "url": "https://msedgedriver.microsoft.com/108.0.1462.42/edgedriver_linux64.zip"
         },
         {
             "name": "operadriver",

@@ -35,7 +35,7 @@ The repository JSON must be validated against [the driver schema](https://github
     "arch": "amd64",
     "version": "108.0.1462.38",
     "fileMatchInside": "^msedgedriver\\.exe$",
-    "url": "https://msedgedriver.azureedge.net/108.0.1462.38/edgedriver_win64.zip"
+    "url": "https://msedgedriver.microsoft.com/108.0.1462.38/edgedriver_win64.zip"
 }
 ```
 
@@ -55,7 +55,7 @@ If there is more than one variant of a driver for a certain platform and bit, e.
 	    "arch": "amd64",
 	    "version": "108.0.1462.38",
 	    "fileMatchInside": "^msedgedriver\\.exe$",
-	    "url": "https://msedgedriver.azureedge.net/108.0.1462.38/edgedriver_win64.zip"
+	    "url": "https://msedgedriver.microsoft.com/108.0.1462.38/edgedriver_win64.zip"
 	},
 	{
 	    "name": "edgedriver",
@@ -64,7 +64,7 @@ If there is more than one variant of a driver for a certain platform and bit, e.
 	    "arch": "aarch64",
 	    "version": "108.0.1462.38",
 	    "fileMatchInside": "^msedgedriver\\.exe$",
-	    "url": "https://msedgedriver.azureedge.net/108.0.1462.42/edgedriver_arm64.zip"
+	    "url": "https://msedgedriver.microsoft.com/108.0.1462.42/edgedriver_arm64.zip"
 	}
 ...
 }
