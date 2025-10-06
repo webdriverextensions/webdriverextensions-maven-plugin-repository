@@ -1,4 +1,4 @@
-![Plugin Repository CI](https://github.com/webdriverextensions/webdriverextensions-maven-plugin-repository/workflows/Plugin%20Repository%20CI/badge.svg)
+[![Plugin Repository CI](https://github.com/webdriverextensions/webdriverextensions-maven-plugin-repository/actions/workflows/maven.yml/badge.svg)](https://github.com/webdriverextensions/webdriverextensions-maven-plugin-repository/actions/workflows/maven.yml)
 
 WebDriver Extensions Maven Plugin Repository 3.0
 ===================
